@@ -1,0 +1,93 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background-color: #b2c7f3;
+  
+  font-family:"inter","sans-serif";
+}
+img{
+  width:200px;
+  height:100px;
+}
+.Card{
+  background-color: #fff;
+  width:70%;
+  min-width:550px;
+  padding: 50px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top:50%;
+  left:50%;
+  color:goldenrod;
+  border-radius: 25px  ;
+  border:2px solid rgb(243, 19, 187);
+  
+}
+h1{
+
+ background: white;
+ font-size: 30px !important;
+ font-weight: 700;
+ color: #333;
+ margin-bottom: 3rem;
+ text-decoration: underline;
+ color:rgb(230, 9, 156);
+
+}
+.currancy_exchange{
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+}
+.input_container{
+  width:30%;
+  height:fit-content;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  background-color: #fff;
+}
+
+.input_label{
+  font-size:20px;
+  font-weight: 900;
+  background: #fff;
+}
+.input_field{
+  background: #fff;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(22, 22, 22);
+  
+
+  
+}
+#A100{
+  background-color: #fff;
+}
+.output{
+ 
+  background-color: #fff;
+}
+h2{
+  width:50%;
+  margin-top: 20px;
+  background-color:#b2c7f3;
+  padding: 26px;
+  border-radius: 20px;
+  font-size: 20px;
+  
+}
+.amount{
+  color:black;
+  background-color:#b2c7f3;
+  font-size: 20px;
+  padding-left: 30px;
+
+}
+
+
+
